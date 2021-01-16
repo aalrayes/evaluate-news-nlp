@@ -1,0 +1,31 @@
+form {
+    padding: 40px;
+    input {
+        padding: 20px 20px;
+        border: 2px solid white;
+        border-radius: 5px;
+        width: 100%;
+        line-height: 16px;
+        margin: 10px 0;
+        font-size: large;
+        background-color:#2B2C54;
+        color: white;
+    }
+    button{
+        padding: 20px 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
+        line-height: 16px;
+        margin: 10px 0;
+        font-size: medium;
+        background-color:#2B2C54;
+        color: white;
+        cursor: pointer;
+    }
+}
+::placeholder{
+    color: rgb(216, 216, 216);
+}
+
+
