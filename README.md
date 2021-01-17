@@ -1,4 +1,4 @@
-# Evaluate News Natural Language Processing - Misk project 4
+# Evaluate News Natural Language Processing - FEND project 4
 
 Evaluate News NLP is a website used to evaluate the sentiment of text, using meaningCloud 's Sentiment api.
 
