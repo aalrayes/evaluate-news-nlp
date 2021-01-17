@@ -20,8 +20,38 @@ the point of this project was to:
 
 ## Installation
 
-you can clone the project :
+Clone the project :
 
 ```bash
 git clone https://github.com/aalrayes/evaluate-news-nlp.git 
+```
+- install dependencies the project folder:
+```bash
+npm install 
+```
+## Usage
+
+Before you start the app, create a `.env` file at the app's root. This file must have at least one env variable called `API_KEY` containing your key to the meaningCloud API
+
+
+- Start the webpack development server. `Port: 8080`
+```bash
+npm run build-dev
+```
+- Build the `dist` folder for express to use.
+```bash
+npm run build-prod
+```
+- Start the express server. `Port: 3000`
+```bash
+npm run start
+```
+- After that you will be greeted with the front page, and should be able to enter the text you want to evaluate.
+
+![Landing sceensshot](https://ibb.co/hV9bQcy][img]https://i.ibb.co/gJ9Nqd3/sentiment-val.png)
+
+
+## Test
+```bash
+npm run test
 ```
