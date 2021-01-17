@@ -14,6 +14,22 @@ section {
     max-width: 800px;
     margin: 50px auto;
     color: white;
+    font-size: large;
+   &:last-child{
+       display: flex;
+       margin-top: 0;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+
+   strong{
+       text-align: center;
+   }
+}
+#results{
+    text-align: center;
+    white-space: pre-wrap;
+    margin-top: 10px;
 }
 
 

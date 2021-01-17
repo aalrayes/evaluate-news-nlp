@@ -11,6 +11,10 @@ form {
         font-size: large;
         background-color:$primery;
         color: white;
+
+        &::placeholder{
+            color: rgb(216, 216, 216);
+        }
     }
     button{
         padding: 20px 20px;
@@ -30,8 +34,6 @@ form {
     
     }
 }
-::placeholder{
-    color: rgb(216, 216, 216);
-}
+
 
 

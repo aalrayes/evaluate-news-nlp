@@ -4,12 +4,12 @@ header {
     justify-content: center;
     justify-items: center;
     padding: 10px 40px;
-    fill: white;
-
+    
     div{
         color: white;
         font-weight: bold;
         padding:5px 0;
-        text-align: center;    
+        text-align: center;   
+        fill: white; 
     }
 }

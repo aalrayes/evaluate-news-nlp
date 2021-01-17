@@ -37,8 +37,11 @@ app.get('/', function (req, res) {
 app.post('/analyze',function (req, res) {
    let fromText = req.body.text;
    let api_url = `https://api.meaningcloud.com/sentiment-2.1?key=${application_key}&of=json&txt=${fromText}&model=general&lang=en`;
-   axios.get(api_url).then(response =>{  
-    projectData.result = response.data.confidence;
+   axios.get(api_url).then(response =>{
+    projectData.score_tag = response.data.score_tag;
+    projectData.agreement = response.data.agreement;
+    projectData.irony = response.data.irony;
+    projectData.confidence = response.data.confidence;
     console.log(projectData) 
     res.send(projectData);
    });
