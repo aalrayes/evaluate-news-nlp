@@ -1,5 +1,4 @@
-
-const postData = async (text={}) => {
+async function postData (text={}){
     const response = await fetch('http://localhost:3000/analyze', {
       method: 'POST',
       credentials: 'same-origin',
