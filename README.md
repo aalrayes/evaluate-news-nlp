@@ -48,7 +48,7 @@ npm run start
 ```
 - After that you will be greeted with the front page, and should be able to enter the text you want to evaluate.
 
-![Landing sceensshot](https://ibb.co/hV9bQcy][img]https://i.ibb.co/gJ9Nqd3/sentiment-val.png)
+![Landing sceensshot](https://i.ibb.co/GRpyY90/sentiment-val.png)
 
 
 ## Test
