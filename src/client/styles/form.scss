@@ -1,3 +1,4 @@
+$primery : #2B2C54;
 form {
     padding: 40px;
     input {
@@ -8,7 +9,7 @@ form {
         line-height: 16px;
         margin: 10px 0;
         font-size: large;
-        background-color:#2B2C54;
+        background-color:$primery;
         color: white;
     }
     button{
@@ -19,9 +20,14 @@ form {
         line-height: 16px;
         margin: 10px 0;
         font-size: medium;
-        background-color:#2B2C54;
+        background-color:$primery;
         color: white;
         cursor: pointer;
+    
+        &:hover{
+         background-color: rgb(34, 34, 66)
+        }
+    
     }
 }
 ::placeholder{
